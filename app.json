@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "myTodoApp",
-    "slug": "myTodoApp",
+    "name": "Animegg",
+    "slug": "Animegg",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,10 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.animeegg"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "61b4e393-37dc-4aa7-9685-efa81ef83cc4"
+      }
+    },
+    "owner": "3ggie.ab"
   }
 }
